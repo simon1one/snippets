@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.wxmlabs.snippets'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.bouncycastle:bcpkix-jdk15on:1.62'
+}
